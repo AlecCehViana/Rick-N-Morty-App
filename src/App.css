@@ -1,0 +1,114 @@
+*{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.App{
+  text-align: center;
+  align-items: center;
+  padding: 40px;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  
+ 
+}
+
+
+
+.character-container{
+
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  background: url('./assets/videoplayback.mp4');
+}
+
+.character-item{
+  padding: 6px;
+}
+
+.character-card{
+  border : 1px solid rgba( 255 , 255 , 255 , 0.18 ) ;
+  background : linear-gradient( 135deg , rgba( 255 , 255 , 255 , 0.1 ) , rgba(255 , 255 , 255 , 0 )) ;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, .2);
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  padding: 10px;
+  height: 100%;
+  
+}
+
+.character-card img{
+
+  width: 100%;
+  border-radius: 55px;
+  margin-bottom: 10px;
+  
+}
+
+.data-container{
+  list-style: none;
+  border : 1px solid rgba( 255 , 255 , 255 , 0.18 ) ;
+  background : linear-gradient( 135deg , rgba( 255 , 255 , 255 , 0.3 ) , rgba(255 , 255 , 255 , 0.1 )) ;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, .2);
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  padding: 30px;
+  margin: 30px;
+  
+}
+
+.main-container h1{
+  
+ margin-bottom: 50px;
+ 
+  
+}
+
+
+
+
+
+@media (min-width: 558px) {
+  .character-item{
+    width: 45%;
+
+  }
+  
+  .character-card{
+    font-size: 14px;
+    text-align: center;
+    
+  }
+
+  .data-container li{
+    display: inline-block;
+    padding: 0px 5px ;
+    text-align: center;
+    list-style: none;
+   
+  }
+  
+}
+
+
+@media (min-width: 768px) {
+  .character-item{
+    width: 28%;
+
+  }
+
+ 
+  
+}
+@media (min-width: 920px) {
+  .character-item{
+    width: 25%;
+
+  }
+  
+  
+}
+
